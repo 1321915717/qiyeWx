@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/we/we",
+    "pages/category/category",
+    "pages/callme/callme",
+    "pages/product/product",
+    "pages/news/news",
+    "pages/tech/tech",
+    "pages/mu/mu",
+    "pages/honor/honor",
+    "pages/customer/customer",
+    "pages/categorys/categorys"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#B5B5B5",
+    "selectedColor": "#4186F8",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "./static/tabbar/index.png",
+        "selectedIconPath": "./static/tabbar/indexed.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "产品",
+        "iconPath": "./static/tabbar/category.png",
+        "selectedIconPath": "./static/tabbar/categoryed.png"
+      },
+      {
+        "pagePath": "pages/we/we",
+        "text": "关于我们",
+        "iconPath": "./static/tabbar/me.png",
+        "selectedIconPath": "./static/tabbar/meed.png"
+      },
+      {
+        "pagePath": "pages/callme/callme",
+        "text": "联系我们",
+        "iconPath": "./static/tabbar/call.png",
+        "selectedIconPath": "./static/tabbar/called.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

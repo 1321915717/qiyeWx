@@ -1,0 +1,1 @@
+<view class="menu"><button data-event-opts="{{[['tap',[['change',['$event']]]]]}}" class="cu-btn cuIcon bg-white block shadow-warp buttons" bindtap="__e"><text class=" iconfont icon-weibiaoti556" style="font-size:50rpx;"></text></button></view>

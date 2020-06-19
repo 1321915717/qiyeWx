@@ -1,0 +1,128 @@
+
+.we-video{
+		width: 750rpx;
+		height: 400rpx;
+}
+.top{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+}
+.logo{
+		
+		width: 80rpx;
+		height: 80rpx;
+}
+.logo-image{
+		width: 80rpx;
+		height: 80rpx;
+}
+.top-titles{
+		
+		color: #00ACFC;
+		width: 610rpx;
+}
+.top-title{
+		
+	
+		color: #00ACFC;
+		text-align: center;
+		
+		font-size: 40rpx;
+		font-weight: bold;
+		width: 610rpx;
+}
+.my-title{
+		 background-image:url(https://ppt-download.oss-cn-beijing.aliyuncs.com/%E4%BC%81%E4%B8%9A/banner.png);background-repeat:no-repeat;
+		        background-size:100% 100%; 
+		width: 750rpx;
+		text-align: center;
+		font-size: 30rpx;
+		font-weight: bold;
+		color: #FFFFFF;
+		padding: 20rpx 0;
+		margin: 10rpx 0rpx;
+}
+.jianjie{
+		margin-top: 10rpx;
+		line-height: 50rpx;
+		text-align: left;
+		padding: 10rpx 20rpx;
+		padding-top: 0rpx;
+		width: 750rpx;
+		color:#777777;
+		font-size: 25rpx;
+		font-weight: 500;
+}
+.my-tu{
+		padding: 20rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+		-webkit-flex-wrap: wrap;
+		        flex-wrap: wrap;
+		padding-bottom: 10rpx;
+}
+.tu-item{
+		width: 350rpx;
+		margin-bottom: 10rpx;
+}
+.tu-item>image{
+		width: 350rpx;
+		height: 250rpx;
+}
+.news-item{
+		margin-bottom: 4rpx;
+		padding: 20rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+}
+.new-title{
+		font-size: 32rpx;
+		color: #333333;
+		font-weight: bold;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+}
+.new-content{
+		margin-top: 10rpx;
+		color: #8799A3;
+}
+.new-left{
+		width: 550rpx;
+}
+.new-date{
+		margin-top: 20rpx;
+		font-weight: bold;
+}
+.news-right{
+		width: 150rpx;
+}
+.news-right>image{
+		width: 150rpx;
+		height: 150rpx;
+}
+

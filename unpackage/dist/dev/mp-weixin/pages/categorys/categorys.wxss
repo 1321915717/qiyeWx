@@ -1,0 +1,116 @@
+
+.top{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+}
+.logo{
+		
+		width: 80rpx;
+		height: 80rpx;
+}
+.logo-image{
+		width: 80rpx;
+		height: 80rpx;
+}
+.top-titles{
+		
+		color: #00ACFC;
+		width: 610rpx;
+}
+.top-title{
+		
+	
+		color: #00ACFC;
+		text-align: center;
+		
+		font-size: 40rpx;
+		font-weight: bold;
+		width: 610rpx;
+}
+.category-item{
+	margin-left: 10rpx;
+	margin-top: 40rpx;
+	width: 150rpx;
+	height: 150rpx;
+}
+.category-image{
+	width: 150rpx;
+	height: 150rpx;
+}
+.category-title{
+	text-align: center;
+	width: 150rpx;
+}
+.category-box{
+	width: 100%;
+	padding-bottom: 80rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+	-webkit-box-align: baseline;
+	-webkit-align-items: baseline;
+	        align-items: baseline;
+	
+	-webkit-flex-wrap: wrap;
+	
+	        flex-wrap: wrap;
+}
+.fixed {
+	position: fixed;
+	z-index: 99;
+}
+.VerticalNav.nav {
+	width: 200rpx;
+	white-space: initial;
+}
+.VerticalNav.nav .cu-item {
+	width: 100%;
+	text-align: center;
+	background-color: #fff;
+	margin: 0;
+	border: none;
+	height: 50px;
+	position: relative;
+}
+.VerticalNav.nav .cu-item.cur {
+	background-color: #f1f1f1;
+}
+.VerticalNav.nav .cu-item.cur::after {
+	content: "";
+	width: 8rpx;
+	height: 30rpx;
+	border-radius: 10rpx 0 0 10rpx;
+	position: absolute;
+	background-color: currentColor;
+	top: 0;
+	right: 0rpx;
+	bottom: 0;
+	margin: auto;
+}
+.VerticalBox {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.VerticalMain {
+	background-color: #f1f1f1;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+

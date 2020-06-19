@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "联系我们",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-parse": "/components/u-parse/u-parse",
+    "menus": "/components/menu"
+  }
+}

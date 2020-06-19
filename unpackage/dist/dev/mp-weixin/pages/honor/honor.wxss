@@ -1,0 +1,48 @@
+
+.imagestwo{
+		width: 360rpx;
+		height: 500rpx;
+}
+.image-tiem{
+		margin-top: 10rpx;
+}
+.image-title{
+		width: 100%;
+		text-align: center;
+}
+.image-box{
+			width: 750rpx;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-orient: horizontal;
+			-webkit-box-direction: normal;
+			-webkit-flex-direction: row;
+			        flex-direction: row;
+			padding: 10rpx 10rpx;
+			-webkit-flex-wrap: wrap;
+			        flex-wrap: wrap;
+			-webkit-box-pack: justify;
+			-webkit-justify-content: space-between;
+			        justify-content: space-between;
+}
+.images{
+		width: 360rpx;
+		height: 250rpx;
+}
+.my-title{
+		background-image:url(https://ppt-download.oss-cn-beijing.aliyuncs.com/%E4%BC%81%E4%B8%9A/banner.png);background-repeat:no-repeat;
+		        background-size:100% 100%;
+		width: 750rpx;
+		text-align: center;
+		font-size: 30rpx;
+		font-weight: bold;
+		color: #FFFFFF;
+		padding: 20rpx 0;
+		margin: 10rpx 0rpx;
+}
+.mu-content{
+		padding: 20rpx 10rpx;
+}
+	
+

@@ -1,0 +1,11 @@
+
+.menu{
+	width: 80rpx;
+	position: fixed;
+	bottom: 10%;
+	right: 3%;
+}
+.buttons{
+	margin-bottom: 20rpx;
+}
+

@@ -1,0 +1,118 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			},
+			"permission": {
+			    "scope.userLocation": {
+			      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+			    }
+			  }
+		}
+	    ,{
+            "path" : "pages/we/we",
+            "style" : {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/category/category",
+            "style" : {
+				"navigationBarTitleText": "产品",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/callme/callme",
+            "style" : {
+				"navigationBarTitleText": "联系我们",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/product/product",
+            "style" : {
+				"navigationBarTitleText": "产品详情"
+			}
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" : {
+				"navigationBarTitleText": "新闻"
+			}
+        }
+        ,{
+            "path" : "pages/tech/tech",
+            "style" : {
+				"navigationBarTitleText": "技术实力"
+			}
+        }
+        ,{
+            "path" : "pages/mu/mu",
+            "style" : {
+				"navigationBarTitleText": "制造能力"
+			}
+        }
+        ,{
+            "path" : "pages/honor/honor",
+            "style" : {
+				"navigationBarTitleText": "企业荣誉"
+			}
+        }
+        ,{
+            "path" : "pages/customer/customer",
+            "style" : {
+				
+				"navigationBarTitleText": "客户群体"
+			}
+        }
+        ,{
+            "path" : "pages/categorys/categorys",
+            "style" : {
+				"navigationBarTitleText": "分类"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color": "#B5B5B5",
+		"selectedColor":"#4186F8",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"主页",
+				"iconPath":"./static/tabbar/index.png",
+				"selectedIconPath":"./static/tabbar/indexed.png"
+			},
+			
+			{
+				"pagePath":"pages/category/category",
+				"text":"产品",
+				"iconPath":"./static/tabbar/category.png",
+				"selectedIconPath":"./static/tabbar/categoryed.png"
+			},
+			{
+				"pagePath":"pages/we/we",
+				"text":"关于我们",
+				"iconPath":"./static/tabbar/me.png",
+				"selectedIconPath":"./static/tabbar/meed.png"
+			},
+			{
+				"pagePath":"pages/callme/callme",
+				"text":"联系我们",
+				"iconPath":"./static/tabbar/call.png",
+				"selectedIconPath":"./static/tabbar/called.png"
+			}
+		]
+	}
+}

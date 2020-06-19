@@ -1,0 +1,86 @@
+
+.deatil-contents{
+	color: #000000;
+	line-height: 50rpx;
+	font-size: 32rpx;
+}
+.deatil-content{
+	width: 400rpx;
+	color: #000000;
+}
+.qi-content{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	padding: 0 10rpx;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.qiye-image{
+	width: 300rpx;
+	height: 300rpx;
+}
+.tech-content{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	padding: 20rpx 10px;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	line-height: 4rpx;
+}
+.tech-contents{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	padding: 20rpx 10px;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	
+	line-height: 4rpx;
+}
+.my-title{
+	background-image:url(https://ppt-download.oss-cn-beijing.aliyuncs.com/%E4%BC%81%E4%B8%9A/banner.png);background-repeat:no-repeat;
+	        background-size:100% 100%;
+	width: 750rpx;
+	text-align: center;
+	font-size: 30rpx;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 20rpx 0;
+	margin: 10rpx 0rpx;
+}
+.techimage{
+	margin-right: 20rpx;
+	display: inline-block;
+	width: 40rpx;
+	height: 40rpx;
+}
+.techimages{
+	
+	width: 30rpx;
+	height: 30rpx;
+	margin-right: 10rpx;
+}
+
